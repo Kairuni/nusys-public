@@ -1,0 +1,1 @@
+AB.addGenericAbility("Avoidance", "Bolstering", {defs = {"bolstering"}, syntax = {Default = "bolster"}, bal = {bal = "balance", cost = 0}, cooldown = 120, noShield = true});

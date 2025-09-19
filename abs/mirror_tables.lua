@@ -1,0 +1,2 @@
+NU.skillMirrors = {};
+NU.abMirrors = {};

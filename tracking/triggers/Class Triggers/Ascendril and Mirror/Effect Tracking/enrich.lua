@@ -1,0 +1,4 @@
+TRIG.register("free_enrich", "exact", [[You can once more freely enrich your fulcrum.]], function() NU.clearFlag("fulcrum_enrich_cd"); end, "ASCENDRIL_OFFENSE_TRACKING");
+TRIG.register("water_enrich", "exact", [[Your will sinking into the fluid continuity of rivers and the hammering pulse of the tide, you align your fulcrum's resonance with water.]], function() NU.setFlag("fulcrum_enrich_cd", NU.time() + 30, 30); end, "ASCENDRIL_OFFENSE_TRACKING");
+TRIG.register("fire_enrich", "exact", [[Drawing on the essence of hearth, forge, and the deep veins of the world, you align your fulcrum's resonance with fire.]], function() NU.setFlag("fulcrum_enrich_cd", NU.time() + 30, 30); end, "ASCENDRIL_OFFENSE_TRACKING");
+TRIG.register("air_enrich", "exact", [[Your breath rising into the crackling potential of the wind and storm, you align your fulcrum's resonance with air.]], function() NU.setFlag("fulcrum_enrich_cd", NU.time() + 30, 30); end, "ASCENDRIL_OFFENSE_TRACKING");

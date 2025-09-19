@@ -1,0 +1,3 @@
+PARRY = {};
+PARRY.strategies = {};
+

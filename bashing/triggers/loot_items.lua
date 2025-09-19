@@ -1,0 +1,2 @@
+-- Bloodwood essence
+-- Spectral essence tumbles out of the corpse of a lingering spirit.

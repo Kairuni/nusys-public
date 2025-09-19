@@ -1,0 +1,2 @@
+AB.addGenericAbility("Pipe", "rebounding", {defs = {"rebounding"}, syntax = {Default = "smoke reishi"}, bal = {cost = BALANCE_DATA.smoke.mean, bal = "pipe"},
+    reqs = function(stable) return TRACK.getSelf().actions.exRebound < NU.time() and not stable.defs.rebounding and not stable.affs.asthma; end});

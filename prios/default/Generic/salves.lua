@@ -1,0 +1,118 @@
+PRIOS.default.generic.poultice = {
+    "burnt_skin",
+
+    "anorexia",
+    "head_mangled",
+    "SUPER_ABLAZE",
+    "SUPER_ABLAZE_BROKEN_TORSO",
+    "GONNA_DIE_FROZEN",
+
+    "destroyed_throat",
+    "smashed_throat",
+    "anorexia",
+    "BOTH_ARMS_CRIPPLED_ONE_CURABLE",
+    "indifference",
+    "frozen",
+    "frigid",
+    "mindfog",
+    "phosphenes",
+
+    "crushed_kneecaps",
+    "crushed_chest",
+
+    "head_bruised_critical",
+    "left_arm_bruised_critical",
+    "right_arm_bruised_critical",
+    "left_leg_bruised_critical",
+    "right_leg_bruised_critical",
+    "torso_bruised_critical",
+
+    "left_leg_crippled",
+    "right_leg_crippled",
+    "PRONE_LEFT_LEG_BROKEN",
+    "PRONE_RIGHT_LEG_BROKEN",
+
+    "mauled_face",
+
+    "hypothermia",
+    "heatspear",
+
+    "left_leg_amputated",
+    "right_leg_amputated",
+    "right_leg_mangled",
+    "left_leg_mangled",
+    "left_leg_broken",
+    "left_leg_bruised_moderate",
+    "right_leg_broken",
+    "right_leg_bruised_moderate",
+    "left_leg_bruised",
+    "right_leg_bruised",
+    "head_broken",
+    "voidgaze",
+
+    "head_bruised_moderate",
+    "head_bruised",
+
+    "crushed_elbows",
+
+    "left_arm_crippled",
+    "left_arm_amputated",
+    "right_arm_crippled",
+    "right_arm_amputated",
+    "left_arm_mangled",
+    "right_arm_mangled",
+    "left_arm_broken",
+    "right_arm_broken",
+    "right_arm_bruised_moderate",
+    "right_arm_bruised",
+    "left_arm_bruised_moderate",
+    "left_arm_bruised",
+
+    "sore_wrist",
+    "weak_grip",
+    "sore_ankle",
+    "whiplash",
+    "backstrain",
+    "muscle_spasms",
+    "stiffness",
+    "deepwound",
+    "lightwound",
+
+    "right_arm_dislocated",
+    "left_arm_dislocated",
+    "right_leg_dislocated",
+    "left_leg_dislocated",
+
+    "shivering",
+    "torso_mangled",
+    "torso_broken",
+    "cracked_ribs",
+    "torso_bruised_moderate",
+    "torso_bruised",
+    "spinal_rip",
+
+    "gloom",
+    "collapsed_lung",
+
+    "crippled_throat",
+    "effused_blood",
+    "ablaze",
+
+    "gorged",
+
+    "stuttering",
+    "blurry_vision",
+    "UNKNOWN_MENDLEGS",
+    "UNKNOWN_MENDARMS",
+    "UNKNOWN_MENDSKIN",
+
+    "LEFT_LEG_PRERESTORE",
+    "RIGHT_LEG_PRERESTORE",
+    "LEFT_ARM_PRERESTORE",
+    "HEAD_PRERESTORE",
+    "TORSO_PRERESTORE",
+    "RIGHT_ARM_PRERESTORE",
+
+    "burnt_eyes",
+    "no_density",
+}

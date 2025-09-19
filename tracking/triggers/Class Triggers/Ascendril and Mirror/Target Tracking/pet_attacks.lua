@@ -1,0 +1,1 @@
+TRIG.register("efreeti", "regex", [[^Its hands like brands\, a fiery efreeti strikes at (\w+)]], function() creplaceLine("<ansi_red>Efreeti hit " .. matches[2]); end, "OFFENSE_REPLACEMENTS");

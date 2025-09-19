@@ -1,0 +1,16 @@
+AUTOBASH.aggroMap["Maestral's Barrier Reef"] = {
+    [ [[a puffer fish]] ] = {aggro = false, priority = 1, flee = false},
+    [ [[a savage, scarred skrell]] ] = {aggro = false, priority = 1, flee = false},
+    [ [[a school of neon tetra fish]] ] = {aggro = false, priority = 1, flee = false},
+    [ [[a Golban guard]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a blue-ringed octopus]] ] = {aggro = false, priority = 1, flee = false},
+    [ [[a school of long fin reef minnows]] ] = {aggro = false, priority = 1, flee = false},
+    [ [[a pot-bellied seahorse]] ] = {aggro = false, priority = 2, flee = false},
+    [ [[a sharp-toothed skrell]] ] = {aggro = false, priority = 1, flee = false},
+    [ [[a skrell hatchling]] ] = {aggro = false, priority = 1, flee = false},
+    [ [[a bottom-feeding flatfish]] ] = {aggro = false, priority = 1, flee = false},
+    [ [[a bony Delvian boxfish]] ] = {aggro = false, priority = 1, flee = false},
+    [ [[an Albedian codfish]] ] = {aggro = false, priority = 1, flee = false},
+    [ [[a hulking skrell matriarch]] ] = {aggro = false, priority = 1, flee = false},
+    [ [[Khtapssos, a giant, blue-ringed octopus]] ] = {aggro = false, priority = -1, flee = true},
+};

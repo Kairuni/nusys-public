@@ -1,0 +1,5 @@
+TRIG.register("predator_summon_bear", "exact", [[A bulky orgyuk trots in and looks up at you expectantly.]], function() TRACK.checkWithIllusion(function() if (PFLAGS.beastmastery_expected) then NU.setFlag("beastmastery", "bear", 600) end end); end);
+TRIG.register("predator_summoned_bear", "exact", [[Your orgyuk is already here with you.]], function() TRACK.checkWithIllusion(function() NU.setFlag("beastmastery", "bear", 600) end); end);
+
+TRIG.register("predator_summon_spider", "exact", [[An elusive spider scurries in and looks up at you expectantly.]], function() TRACK.checkWithIllusion(function() if (PFLAGS.beastmastery_expected) then NU.setFlag("beastmastery", "spider", 600) end end); end);
+TRIG.register("predator_summoned_spider", "exact", [[Your spider is already here with you.]], function() TRACK.checkWithIllusion(function() NU.setFlag("beastmastery", "spider", 600) end); end);

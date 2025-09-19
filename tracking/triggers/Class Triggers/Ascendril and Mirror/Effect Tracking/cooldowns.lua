@@ -1,0 +1,5 @@
+TRIG.register("no_simultaneity", "exact", [[You do not have a channel open to the fire, water, air, and spirit element.]], function() if (FLAGS.misc_defs) then FLAGS.misc_defs.simultaneity = nil; end end, "ASCENDRIL_COOLDOWN_TRACKING");
+TRIG.register("already_shifted", "exact", [[You cannot do that again yet.]], function() NU.setFlag("fulcrum_shift_cd", true, 20); end, "ASCENDRIL_COOLDOWN_TRACKING");
+TRIG.register("can_shift", "exact", [[Your fulcrum can shift you out of danger once more.]], function() NU.clearFlag("fulcrum_shift_cd"); end, "ASCENDRIL_COOLDOWN_TRACKING");
+TRIG.register("already_restored", "exact", [[You have too recently restored your body.]], function() NU.setFlag("fulcrum_restore_cd", true, 20); end, "ASCENDRIL_COOLDOWN_TRACKING");
+TRIG.register("can_restore", "exact", [[You may once again restore your body.]], function() NU.clearFlag("fulcrum_restore_cd"); end, "ASCENDRIL_COOLDOWN_TRACKING");

@@ -1,0 +1,1 @@
+-- Whirran catches his flying axe with his left hand.

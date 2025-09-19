@@ -1,0 +1,1 @@
+--^(\w+) uses Desiccation Scour\.$ -- slickness lockbreak

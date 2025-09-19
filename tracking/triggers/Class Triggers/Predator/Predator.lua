@@ -1,0 +1,1 @@
+TRIG.register("predator_dart", "regex", [[^Your dart strikes (\w+)\, digging (\w+) into]], function() TRACK.checkWithIllusion(function() TRACK.taff(matches[2], CONVERT.empowermentToAff[matches[3]]); end) end);

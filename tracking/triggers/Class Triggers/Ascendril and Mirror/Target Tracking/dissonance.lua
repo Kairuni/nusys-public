@@ -1,0 +1,2 @@
+TRIG.register("dissonance", "regex", [[^Your fulcrum\'s dissonance affects (\w+) with (\w+)\.$]], function() TRACK.taff(matches[2], matches[3]); end, "ASCENDRIL_OFFENSE_TRACKING");
+TRIG.register("dissonance_dissonant", "regex", [[^(\w+) begins to vibrate in harmony with a disruptive resonance\.$]], function() TRACK.taff(matches[2], "dissonance"); end, "ASCENDRIL_OFFENSE_TRACKING");

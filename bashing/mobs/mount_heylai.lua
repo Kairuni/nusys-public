@@ -1,0 +1,17 @@
+AUTOBASH.aggroMap["Mount Heylai"] = {
+    [ [[Ira]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[Raad]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a dwarf geared up for battle]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[an armored dwarf]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a female dwarven villager]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a dwarven boy]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a dwarven girl]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[Elder Elerl of Heylai]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[Thoraim]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a dwarven miner]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[Valgar]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a dwarven warrior]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[Yimar, the Heylai Weaver]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[Bernar]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[Hudi, an Impish recruit]] ] = {aggro = false, priority = -1, flee = false},
+};

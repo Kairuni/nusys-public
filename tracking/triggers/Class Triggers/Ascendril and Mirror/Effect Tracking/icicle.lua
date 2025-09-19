@@ -1,0 +1,5 @@
+TRIG.register("icicle_ground", "exact", [[An icicle trap has already been set into the ground here.]], function() NU.setFlag("icicle_trap", true, 60); end, "ASCENDRIL_OFFENSE_TRACKING");
+TRIG.register("icicle_trap_removed", "start", [[Your icicle trap at]], function() NU.clearFlag("icicle_trap"); end, "ASCENDRIL_OFFENSE_TRACKING");
+
+TRIG.register("icicle_trap_clear", nil, [['s footsteps ripple across a thin sheen of water, the triggered trap drawing the watersharply inward into a deadly icicle.]], function() NU.clearFlag("icicle_trap"); end, "ASCENDRIL_OFFENSE_TRACKING");
+TRIG.register("icicle_impale", "regex", [[^Unable to get out of the way in time\, (\w+)\'s body is pierced by the gleaming icicle\, the hole left gleaming and transparent as it skewers (\w+)\, (\w+) blood and entrails dripping down to tint the ice like some macabre ornament\.$]], function() TRACK.taff(matches[2], "writhe_impaled"); end, "ASCENDRIL_OFFENSE_TRACKING");

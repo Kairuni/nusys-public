@@ -1,0 +1,104 @@
+(Tells|Isia): Wafting pleasantly like the sea breeze, Isia's voice reaches you, "Kill all the small trees and bushes in Morgun and give them to Parvis in Arbothia."
+(Tells|Isia): Wafting pleasantly like the sea breeze, Isia's voice reaches you, "It's very lucrative."
+
+
+
+ lames lick out at a blood-drenched archer from your body and scorch its flesh.
+[AFF: sore_ankle] [eliadon: sore_ankle, b_eyes]
+[NU - DEBUG]: SOMETHING VERY WRONG
+[NU - DEBUG]: sore_ankle
+[NU - DEBUG]: salve
+[NU - DEBUG]: table: 3FE6FDE0
+[NU - DEBUG]: nil
+[NU - DEBUG]: SOMETHING VERY WRONG
+[NU - DEBUG]: sore_ankle
+[NU - DEBUG]: salve
+[NU - DEBUG]: table: 3FE6FDE0
+[NU - DEBUG]: nil
+
+
+Trying to mindspark off balance.
+
+Mindspark while prone doesn't work
+
+
+Applied caloric after a failed resto?
+
+You must have a fulcrum to perform any of its abilities.
+415[6%], 3137[43%], 105%, 100% ebsspdb B: -388 38000[100%] none  37:659 qhspftm☼touch amnesia##apply restoration to head
+qeb touch amnesia##outc reishi##put reishi in 87018##smoke reishi
+
+[EqBal Queue]: touch amnesia##outc reishi##put reishi in 87018##parry left leg##smoke reishi
+As both your arms are crippled, you cannot do that.
+Frustratingly, your body won't respond to your call to action.
+In your daze you forgot what you were trying to do.
+That pipe has nothing smokeable in it.
+415[6%], 3137[43%], 105%, 100% ebsspdb B: -388 38000[100%] none  37:694 qhspftm☼[H - asthma]touch amnesia##eat opiate##apply caloric
+qeb touch amnesia##outc reishi##put reishi in 87018##fulcrum restore
+
+
+
+
+
+5462[79%], 2686[45%], 99%, 98% ebscsp B: -59 38000[100%] none  02:704 qhspftm☼
+*** Izace: DISCIPLINE - EXSANGUINATE: himself ***
+*** Izace: DICTUM - DICTATE: himself ***
+*** Izace: DICTUM - IMPATIENCE ON HIMSELF *** UNTRACKED
+[  LUA  ] - object: <error in anonymous Lua function> function:<no debug data available>
+            <Lua error:.../profiles/1. Aetolia - Main/../nuSys/modules/abs.lua:139: C stack overflow>
+
+???????????????
+
+*** Izace: DISCIPLINE - EXSANGUINATE: himself ***
+*** Izace: DICTUM - DICTATE: himself ***
+*** Izace: DICTUM - EPILEPSY ON HIMSELF *** UNTRACKED
+[  LUA  ] - object: <error in anonymous Lua function> function:<no debug data available>
+            <Lua error:.../profiles/1. Aetolia - Main/../nuSys/modules/abs.lua:139: C stack overflow>
+
+*** Izace: DICTUM - mania ON HIMSELF *** UNTRACKED
+[  LUA  ] - object: <error in anonymous Lua function> function:<no debug data available>
+            <Lua error:.../profiles/1. Aetolia - Main/../nuSys/modules/abs.lua:139: C stack overflow>
+
+You may once again yearn for the sea to lend you its succour.
+[  LUA  ] - object: <error in anonymous Lua function> function:<no debug data available>
+            <Lua error:...rs/Class Triggers/Tidesage and Teradrim/Tidesage.lua:1: attempt to concatenate a table value>
+
+
+
+
+
+
+FIX THIS:
+
+
+With a quick spin, you twist your palm and strike Zarranik's face.
+You hear a satisfying crack of sound as your palm connects.
+
+Missing daze
+
+
+
+Zarranik shakes his head clear.
+
+
+Your chains rise up like hackles, ready to strike.
+
+
+Weakened, you thrust your rigid hand into Zarranik with low momentum.
+<<<< DODGED >>>>
+
+Gave lightwound but he didn't actually get it
+
+
+
+With your boundless strength, you drive your rigid hand through Zarranik.
+>>>> PARRIED! <<<<
+
+
+ [zarranik: deepwound, lightwound, stiffness]
+ 
+ 
+ There's my problem
+ 
+ 
+ So probably double whammy of mistracking resto times because my short circuit failed and the above

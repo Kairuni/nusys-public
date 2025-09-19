@@ -1,0 +1,3 @@
+-- You use Racial Pulse.
+-- Tinazin uses Racial Serenity.
+-- Aisling uses Racial Shift.

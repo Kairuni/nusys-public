@@ -1,0 +1,15 @@
+AUTOBASH.aggroMap["the Valley of Lodi"] = {
+    [ [[Blaan, the hermit troll]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a young lamb]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[Foreman Philbert]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a white hen]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[a cave bat]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[the miner, Kortine]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[Braan, the troll]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[Dorven Junior]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a mad-looking Tsol'aa named Blenone]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a sheep]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[an adult wildcat]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[Sleff, a scrawny miner]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[a juvenile wildcat]] ] = {aggro = false, priority = 4, flee = false},
+};

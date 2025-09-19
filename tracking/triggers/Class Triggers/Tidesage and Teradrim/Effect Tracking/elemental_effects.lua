@@ -1,0 +1,1 @@
+-- A synthetic crystal elemental unleashes a jet of icy water at you, washing an ornately-carved ivory pipe away.

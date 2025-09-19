@@ -1,0 +1,9 @@
+TRIG.register("self_already_arcaneskin", "exact", [[You are already protected by a thin layer of magic.]], function() TRACK.addDef(TRACK.getSelf(), "arcaneskin"); end, "ASCENDRIL_DEFENSE_TRACKING");
+TRIG.register("self_already_countercurrent", "exact", [[You are already protected by a countercurrent.]], function() TRACK.addDef(TRACK.getSelf(), "countercurrent"); end, "ASCENDRIL_DEFENSE_TRACKING");
+
+TRIG.register("fulcrum_exists", "exact", [[You already have a fulcrum constructed, Mage.]], function() NU.appendFlag("misc_defs", "fulcrum_construct", true); end, "ASCENDRIL_DEFENSE_TRACKING");
+TRIG.register("fulcrum_gone", "exact", [[You must have a fulcrum to perform any of its abilities.]], function() if (FLAGS.misc_defs) then FLAGS.misc_defs.fulcrum_construct = nil; end end, "ASCENDRIL_DEFENSE_TRACKING");
+TRIG.register("fulcrum_dissonance", "exact", [[Your fulcrum is already resonating with a dissonant effect.]], function() NU.appendFlag("misc_defs", "fulcrum_dissonance", true); end, "ASCENDRIL_DEFENSE_TRACKING");
+
+TRIG.register("reflection_recharge", "exact", [[You feel a tingle as you are able to cast another reflection.]], function() TRACK.checkWithIllusion(function() if (FLAGS.reflection_charges and FLAGS.reflection_charges > 0) then FLAGS.reflection_charges = FLAGS.reflection_charges - 1; end end) end, "ASCENDRIL_DEFENSE_TRACKING");
+TRIG.register("reflection_full_recharge", "exact", [[You feel recharged as you recover your ability to cast reflections.]], function() TRACK.checkWithIllusion(function() NU.clearFlag("reflection_recharge"); end) end, "ASCENDRIL_DEFENSE_TRACKING");

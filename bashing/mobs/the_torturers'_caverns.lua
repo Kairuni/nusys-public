@@ -1,0 +1,15 @@
+AUTOBASH.aggroMap["the Torturers' Caverns"] = {
+    [ [[a flesh golem sentry]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[Mellias, an elegant Tsol'aa consanguine]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[a rank ghoul]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[Kerr'ach, the Lich]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[Tuera, the torturer]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[Sentinel Rozhirr]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[a maggot-ridden skeleton]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[a vampiric overseer]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[a voracious blind-fish]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[a blood construct]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[Ralo, an Impish recruit]] ] = {aggro = false, priority = -1, flee = false},
+    [ [[Argaius, the Terramancer]] ] = {aggro = false, priority = 4, flee = false},
+    [ [[Squire Annaria Loflin]] ] = {aggro = false, priority = -1, flee = false},
+};
